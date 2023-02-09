@@ -1,0 +1,19 @@
+<!-- <p>todo-item works!</p> -->
+<h3 [ngClass]="{'strike': !todo.active}">{{ todo.s_no }}</h3>
+<h2 [ngClass]="{'strike': !todo.active}">{{ todo.Name }}-{{ todo.desc }}</h2>
+<p  [ngClass]="{'strike': !todo.active}">{{ todo.active }}</p>
+
+<div class="form-check">
+  <input
+    class="form-check-input"
+    (click)="Oncheck(todo)"
+    type="checkbox"
+    value=""
+    id="flexCheckDefault"
+    [checked]="!todo.active"
+  />
+  <label class="form-check-label" for="flexCheckDefault"> Done </label>
+</div>
+<button class="btn btn-danger btn-sm" (click)="OnClick(todo)">Delete</button>
+<hr />
+<br />
