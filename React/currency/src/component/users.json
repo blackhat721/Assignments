@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "name":"battu",
+        "birthday":"2001-03-28"
+        
+    },
+    {
+        "id":6,
+        "name":"akshay",
+        "birthday":"2010-11-13"
+    },
+    {
+        "id":8,
+        "name":"akash",
+        "birthday":"2002-10-31"
+    }, 
+    {
+        "id":2,
+        "name":"vivek",
+        "birthday":"2001-02-07"
+    },
+    {
+        "id":7,
+        "name":"anant",
+        "birthday":"2002-02-04"
+    },
+    {
+        "id":4,
+        "name":"ashwin",
+        "birthday":"1978-10-06"
+    },
+    {
+        "id":5,
+        "name":"ayush",
+        "birthday":"1999-03-15"
+    },
+    {
+        "id":9,
+        "name":"raj",
+        "birthday":"1958-02-18"
+    }
+]
