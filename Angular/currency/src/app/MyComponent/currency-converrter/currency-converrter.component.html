@@ -1,0 +1,22 @@
+<h3>currency-converrter works!</h3>
+<div class="contaner">
+  <form (ngSubmit)="Onsubmit()">
+    <label for="ch">From</label>
+    <select id="From" name="From" [(ngModel)]="From">
+      <option value="RUP">Rupees</option>
+      <option value="USD">USD</option>
+      <option value="EURK">EUR</option>
+    </select>
+    <label for="num">Num</label>
+    <input type="number" name="num" id="num" [(ngModel)]="curr" />
+    <label for="choose">choose</label>
+    <select id="To" name="To" [(ngModel)]="To">
+      <option value="RUP">Rupees</option>
+      <option value="USD">USD</option>
+      <option value="EURK">EUR</option>
+    </select>
+    <button type="submit">Convert</button>
+  </form>
+  <h2>To</h2>
+  <h2 class="hide">{{ ans }}</h2>
+</div>

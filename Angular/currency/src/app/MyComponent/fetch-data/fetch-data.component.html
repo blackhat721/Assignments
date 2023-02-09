@@ -1,0 +1,15 @@
+<p style="display: inline-block; margin: 10px">fetch-data works!</p>
+<button class="btn btn-primary btn-sm" (click)="OnClick()">Display</button>
+<button
+  class="btn btn-primary btn-sm"
+  style="margin-left: 10px"
+  (click)="OnClickBirth()"
+>
+  Birthdays
+</button>
+<div class="container-fluid" *ngFor="let item of getUsers">
+  <p>detail of {{ item.id }}</p>
+  <li>{{ item.title }}</li>
+  <li>{{ item.body }}</li>
+  <!-- {{getJson | json}} -->
+</div>
