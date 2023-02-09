@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}
+    {% if title %}
+        <title>{{title}}</title>
+    {% else %}
+        <title>About-page</title>
+    {% endif %}
+
+{% endblock title%}
+
+{% block content%}
+    {% for post in posts %}
+        <h1>{{post.Name}}</h1>
+        <h3>{{post.Branch}}</h3>
+        <p>{{post.code}}</p>
+    {% endfor %}
+{% endblock %}
